@@ -1,10 +1,10 @@
-public abstract class Operator extends Expression {
+public abstract class Operator implements IExpression {
 
-    protected Expression left, right;
+    protected IExpression left, right;
     protected char operator;
 
 
-    public Operator(Expression left, Expression right, char operator) {
+    public Operator(IExpression left, IExpression right, char operator) {
         this.left = left;
         this.right = right;
         this.operator = operator;

@@ -1,7 +1,7 @@
 
 public class Div extends Operator {
 
-    public Div(Expression left, Expression right) {
+    public Div(IExpression left, IExpression right) {
         super(left, right, '/');
     }
 

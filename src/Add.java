@@ -2,7 +2,7 @@
 public class Add extends Operator {
 
 
-    public Add(Expression left, Expression right) {
+    public Add(IExpression left, IExpression right) {
         super(left, right, '+');
     }
 

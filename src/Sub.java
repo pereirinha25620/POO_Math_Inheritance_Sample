@@ -2,7 +2,7 @@
 public class Sub extends Operator {
 
 
-    public Sub(Expression left, Expression right) {
+    public Sub(IExpression left, IExpression right) {
         super(left, right, '-');
     }
 

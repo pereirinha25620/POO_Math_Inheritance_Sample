@@ -1,6 +1,6 @@
 public class Mult extends Operator {
 
-    public Mult(Expression left, Expression right) {
+    public Mult(IExpression left, IExpression right) {
         super(left, right, '*');
     }
 

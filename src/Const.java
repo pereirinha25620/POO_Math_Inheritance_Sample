@@ -1,5 +1,5 @@
 
-public class Const extends Expression {
+public class Const implements IExpression {
 
     private double value;
 
@@ -8,8 +8,6 @@ public class Const extends Expression {
         this.value = value;
     }
 
-
-    // Inherited methods to implement from Expression
     public double eval() {
         return value;
     }

@@ -1,3 +1,5 @@
+package expression;
+
 public class Mult extends Operator {
 
     public Mult(IExpression left, IExpression right) {

@@ -1,3 +1,4 @@
+package expression;
 
 public class Const extends Expression {
 
@@ -9,7 +10,7 @@ public class Const extends Expression {
     }
 
 
-    // Inherited methods to implement from Expression
+    // Inherited methods to implement from expression.Expression
     public double eval() {
         return value;
     }

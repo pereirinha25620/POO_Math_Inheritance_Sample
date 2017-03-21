@@ -1,3 +1,6 @@
+package test;
+
+import expression.*;
 
 public class TestExpressions {
 

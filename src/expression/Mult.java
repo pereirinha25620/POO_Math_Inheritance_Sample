@@ -1,3 +1,5 @@
+package expression;
+
 public class Mult extends Operator {
 
     public Mult(Expression left, Expression right) {

@@ -12,15 +12,11 @@ public abstract class Operator extends Expression {
 
     @Override
     public String toString() {
+        String operationToString = left.toString() + " " + operator + " " + right.toString();
 
-        switch (operator) {
-            case '+':
-            case '-':
-                return "( " + left.toString() + " " + operator + " " + right.toString() + " )";
-            default:
-                return left.toString() + " " + operator + " " + right.toString();
-        }
+        if (operator == '+' || operator == '-')
+            return "( " + operationToString + " )";
 
+        return operationToString;
     }
-
 }
